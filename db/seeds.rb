@@ -30,5 +30,11 @@ end
                             city_id: rand(1..10))
 end
 
+10.times do
+  joinTableDogsStroll = JoinTableDogsStroll.create(
+                        dog_id: rand(1..10),
+                        stroll_id: rand(1..10))
+end
+
 
 
